@@ -36,3 +36,27 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Database files
+*.db
+*.sqlite3
